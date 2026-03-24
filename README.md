@@ -1,4 +1,4 @@
-# MI3041 - Giải Tích Số (Numerical Analysis)
+# MI3041 Support Code
 
 Hệ thống tính toán Hybrid lai giữa SymPy (Symbolic) và NumPy/Math (Numeric) dùng để giải phương trình và hệ phương trình phi tuyến.
 
