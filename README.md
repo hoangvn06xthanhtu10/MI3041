@@ -1,11 +1,15 @@
 # MI3041 - Giải Tích Số (Numerical Analysis)
+
 Hệ thống tính toán Hybrid lai giữa SymPy (Symbolic) và NumPy/Math (Numeric) dùng để giải phương trình và hệ phương trình phi tuyến.
 
-## Các tính năng chính:
-- Phương pháp Chia đôi, Dây cung, Lặp đơn, Tiếp tuyến (Newton) cho phương trình 1 ẩn.
-- Phương pháp Lặp đơn và Tiếp tuyến (Newton) cho hệ phương trình.
-- Hỗ trợ nhập hàm động (Dynamic Parsing).
-- Kiểm soát luồng lai (Hybrid Control Flow): Dừng theo số vòng lặp `N` hoặc sai số `Epsilon`.
+## 🚀 Các tính năng chính:
+* **Phương trình 1 ẩn ($f(x) = 0$):** Hỗ trợ phương pháp Chia đôi, Dây cung, Lặp đơn, Tiếp tuyến (Newton).
+* **Hệ phương trình phi tuyến ($F(X) = 0$):** Hỗ trợ phương pháp Lặp đơn và Tiếp tuyến (Newton).
+* **Đầu vào động (Dynamic Parsing):** Hỗ trợ nhập trực tiếp hàm toán học từ bàn phím.
+* **Luồng điều khiển lai (Hybrid Control Flow):** Tự do lựa chọn điều kiện dừng thuật toán theo số vòng lặp cố định (`N`) hoặc theo sai số giới hạn (`Epsilon`).
 
-## Cách sử dụng:
-Chạy file `main.py` để mở Menu tương tác.
+## ⚙️ Hướng dẫn cài đặt và sử dụng:
+
+1. Đảm bảo máy tính đã cài đặt các thư viện cần thiết:
+   ```bash
+   pip install numpy sympy
